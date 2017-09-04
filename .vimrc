@@ -44,9 +44,6 @@ Plug 'Valloric/youcompleteme', { 'do': './install.py' }
 Plug 'airblade/vim-gitgutter'
 call plug#end()
 
-
-" I need to do this, otherwise everything gets messed up for some reason
-colorscheme 256-grayvim
 colorscheme molokai
 
 " Airline stuff
