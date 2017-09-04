@@ -43,6 +43,9 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
+
+" I need to do this, otherwise everything gets messed up for some reason
+colorscheme 256-grayvim
 colorscheme molokai
 
 " Airline stuff
