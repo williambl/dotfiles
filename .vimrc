@@ -1,6 +1,5 @@
 set history=500
 
-set autoindent
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 
 set autoread
@@ -9,13 +8,15 @@ set autoread
 " (useful for handling the permission-denied error)
 command W w !sudo tee % > /dev/null
 
-set ruler
 set number
 
 set hlsearch
 
 filetype indent plugin on
-syntax enable
+
+if !has('g:syntax_on')
+    syntax enable
+endif
 
 " Smart way to move between windows
 map <C-j> <C-W>j
