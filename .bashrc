@@ -131,6 +131,9 @@ export PATH=${PATH}:/usr/bin/kotlinc/bin/:/usr/bin/kotlin-native/bin
 nyancat -nf5
 clear
 
+# show weather
+curl wttr.in/london?0q
+
 # show rainbow fortune cow
 fortune | cowsay | lolcat
 
