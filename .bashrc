@@ -133,3 +133,6 @@ clear
 
 # show rainbow fortune cow
 fortune | cowsay | lolcat
+
+# Only load Liquid Prompt in interactive shells, not from a script or from scp
+[[ $- = *i* ]] && source /usr/local/bin//liquidprompt/liquidprompt
