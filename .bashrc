@@ -127,5 +127,5 @@ export PATH=${PATH}:$HOME/Android/Sdk/tools:$HOME/Android/Sdk/platform-tools
 # add kotlinc to path
 export PATH=${PATH}:/usr/bin/kotlinc/bin/:/usr/bin/kotlin-native/bin
 
-# show fortune
-fortune
+# show rainbow fortune cow
+fortune | cowsay | lolcat
