@@ -127,5 +127,8 @@ export PATH=${PATH}:$HOME/Android/Sdk/tools:$HOME/Android/Sdk/platform-tools
 # add kotlinc to path
 export PATH=${PATH}:/usr/bin/kotlinc/bin/:/usr/bin/kotlin-native/bin
 
+# show 15 frames of nyancat
+nyancat -nf15
+
 # show rainbow fortune cow
 fortune | cowsay | lolcat
