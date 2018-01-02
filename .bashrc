@@ -138,4 +138,4 @@ curl wttr.in/london?0q
 fortune | cowsay | lolcat
 
 # Only load Liquid Prompt in interactive shells, not from a script or from scp
-[[ $- = *i* ]] && source /usr/local/bin//liquidprompt/liquidprompt
+[[ $- = *i* ]] && source /usr/local/bin/liquidprompt/liquidprompt
