@@ -127,6 +127,10 @@ export PATH=${PATH}:$HOME/Android/Sdk/tools:$HOME/Android/Sdk/platform-tools
 # add kotlinc to path
 export PATH=${PATH}:/usr/bin/kotlinc/bin/:/usr/bin/kotlin-native/bin
 
+# set vim as editor and visual
+export EDITOR=vim
+export VISUAL=vim
+
 # show 5 frames of nyancat, then clear
 nyancat -nf5
 clear
