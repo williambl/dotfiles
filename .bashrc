@@ -123,6 +123,9 @@ export PATH=${PATH}:$HOME/Android/Sdk/tools:$HOME/Android/Sdk/platform-tools
 # add kotlinc to path
 export PATH=${PATH}:/usr/bin/kotlinc/bin/:/usr/bin/kotlin-native/bin
 
+# add ~/.local/bin scripts to path
+export PATH=${PATH}:$HOME/.local/bin
+
 # set vim as editor and visual
 export EDITOR=vim
 export VISUAL=vim
