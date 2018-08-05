@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cp ~/.tmux.conf ~/.tmux.conf.old
+cp .tmux.conf ~/.tmux.conf
