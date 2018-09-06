@@ -51,7 +51,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer --cs-completer --java-completer' }
 Plug 'airblade/vim-gitgutter'
 Plug 'mattn/emmet-vim'
-Plug 'junegunn/fzf', { 'dir': '~/.local/bin/', 'do': './install --all' }
+Plug '~/.fzf'
 call plug#end()
 
 colorscheme molokai
