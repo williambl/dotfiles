@@ -49,7 +49,6 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer --cs-completer --java-completer' }
 Plug 'airblade/vim-gitgutter'
-Plug 'udalov/kotlin-vim'
 call plug#end()
 
 colorscheme molokai
