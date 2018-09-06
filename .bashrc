@@ -146,3 +146,5 @@ if [ -f /usr/local/bin/liquidprompt/liquidprompt ]; then
 elif [ -f /usr/local/share/liquidprompt ]; then
     [[ $- = *i* ]] && source /usr/local/share/liquidprompt
 fi
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
