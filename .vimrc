@@ -52,6 +52,8 @@ Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer --cs-comp
 Plug 'airblade/vim-gitgutter'
 Plug 'mattn/emmet-vim'
 Plug '~/.fzf'
+Plug 'vim-pandoc/vim-pandoc'
+Plug 'vim-pandoc/vim-pandoc-syntax'
 call plug#end()
 
 colorscheme molokai
