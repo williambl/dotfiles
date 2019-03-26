@@ -51,7 +51,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer --cs-completer --java-completer' }
 Plug 'airblade/vim-gitgutter'
 Plug 'mattn/emmet-vim'
-Plug '~/.fzf'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'vim-pandoc/vim-pandoc'
 Plug 'vim-pandoc/vim-pandoc-syntax'
 call plug#end()
