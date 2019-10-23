@@ -69,3 +69,15 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+autoload colors && colors
+
+# User-facing stuff
+
+date +"%a. %d %b %Y" | figlet -f small | lolcat
+echo "🥠 $(fortune -s)" | lolcat
+
+UPGRADES=$(/usr/lib/update-notifier/apt-check --human-readable)
+if [[ ${UPGRADES:0:1} != 0 ]] then
+    echo "$fg[red]📥 $UPGRADES "
+fi
