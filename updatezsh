@@ -1,0 +1,14 @@
+#!/bin/sh
+
+touch ~/.zshenv
+touch ~/.zshrc
+touch ~/.oh-my-zsh/themes/zeta.zsh-theme
+
+cp ~/.zshenv ~/.zshenv.old
+cp .zshenv ~/.zshenv
+
+cp ~/.zshrc ~/.zshrc.old
+cp .zshrc ~/.zshrc
+
+cp ~/.oh-my-zsh/themes/zeta.zsh-theme ~/.oh-my-zsh/themes/zeta.zsh-theme.old
+cp zeta.zsh-theme ~/.oh-my-zsh/themes/zeta.zsh-theme

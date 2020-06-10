@@ -77,7 +77,7 @@ autoload colors && colors
 date +"%a. %d %b %Y" | figlet -f small | lolcat
 echo "🥠 $(fortune -s)" | lolcat
 
-UPGRADES=$(/usr/lib/update-notifier/apt-check --human-readable)
-if [[ ${UPGRADES:0:1} != 0 ]] then
-    echo "$fg[red]📥 $UPGRADES "
-fi
+#UPGRADES=$(/usr/lib/update-notifier/apt-check --human-readable)
+#if [[ ${UPGRADES:0:1} != 0 ]] then
+#    echo "$fg[red]📥 $UPGRADES "
+#fi

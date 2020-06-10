@@ -1,4 +1,0 @@
-#!/bin/sh
-
-cp ~/.bashrc ~/.bashrc.old
-cp .bashrc ~/.bashrc
