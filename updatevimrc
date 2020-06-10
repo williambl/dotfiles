@@ -2,3 +2,6 @@
 
 cp ~/.vimrc ~/.vimrc.old
 cp .vimrc ~/.vimrc
+
+cp ~/.vim/coc-settings.json ~/.vim/coc-settings.json.old
+cp coc-settings.json ~/.vim/coc-settings.json

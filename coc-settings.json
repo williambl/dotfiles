@@ -1,0 +1,5 @@
+{
+    "coc.source.emoji.filetypes": ["gitcommit", "pandoc", "text"],
+    "coc.source.dictionary.filetypes": ["gitcommit", "pandoc", "text"],
+    "coc.source.word.filetypes": ["gitcommit", "pandoc", "text"]
+}
