@@ -34,7 +34,6 @@ plugins=(
     pip
     tmux
     ubuntu
-    vi-mode
     z
     zsh-autosuggestions
     zsh-syntax-highlighting
@@ -69,6 +68,9 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+source /usr/share/fzf/key-bindings.zsh
+source /usr/share/fzf/completion.zsh
 
 autoload colors && colors
 
